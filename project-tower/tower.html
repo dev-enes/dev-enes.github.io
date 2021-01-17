@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JavaScript Block Stacking Game</title>
+
+    <link rel="stylesheet" type="text/css" href="tower.css" />
+</head>
+<body>
+
+    <div id="gameTitle">
+        <h1>A Block Statcking Game</h1>
+    </div>
+
+    <div id="scores">
+        <div id="cs">
+            <h2>Score: <span id="score">0</span></h2>
+        </div>
+        <div id="hs">
+            <h2>High Score: <span id="highScore"></span></h2>
+        </div>
+    </div>
+
+    <div id="game"></div>
+    <button id="button" onclick="stopAnim(1)">Place Block</button>
+
+    <script src="tower.js"></script>
+</body>
+</html>

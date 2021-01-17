@@ -1,0 +1,88 @@
+﻿:root {
+    --width: 300px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#game {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 1px solid #8b4500;
+}
+
+#button {
+    font-size: 28px;
+    padding: 10px 20px;
+    border: 3px solid #ee7600;
+    border-radius: 5px;
+    margin: 20px auto;
+    display: block;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+    #button:active {
+        border: 3px solid black;
+        border-radius: 5px;
+        background-color: #ee7600;
+    }
+
+.block {
+    visibility: hidden;
+    height: 20px;
+    width: 200px;
+    background-color: #ee7600;
+    position: relative;
+}
+
+#block1 {
+    visibility: visible;
+}
+
+.animate {
+    animation: anim 4s linear infinite;
+}
+
+    @keyframes anim {
+        0% {
+            left: 0;
+        }
+        50% {
+            left: var(--width);
+        }
+        100% {
+            left: 0;
+        }
+    }
+
+#gameTitle {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#scores {
+    width: 500px;
+    margin: 0 auto;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#cs {
+    text-align: left;
+}
+
+#hs {
+    text-align: right;
+}
+
+h1, h2 {
+    padding: 20px 0;
+    font-family: 'Roboto', sans-serif;
+    color: #ff7f00;
+}
