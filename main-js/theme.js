@@ -35,5 +35,13 @@ function SetTheme(theme) {
         document.getElementById('theme').href = 'main-css/plum.css';
     }
 
+    if (theme == 'yellow') {
+        document.getElementById('theme').href = 'main-css/yellow.css';
+    }
+
+    if (theme == 'pink') {
+        document.getElementById('theme').href = 'main-css/pink.css';
+    }
+
     localStorage.setItem('color', theme);
 }

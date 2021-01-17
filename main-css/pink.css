@@ -1,0 +1,18 @@
+﻿:root {
+    --mainColor: #cd919e;
+    --secondaryColor: #ffc0cb;
+    --borderColor: #8b636c;
+    --mainText: #333333;
+    --secondaryText: #4d4d4d;
+    --dotBorder: #1a1a1a;
+    --previewBg: #eea9b8;
+    --previewShadow: #8b636c;
+    --btnColor: #8b636c;
+    --attColor: #8b636c;
+}
+
+.about-wrapper hr {
+    background-color: var(--borderColor);
+    height: 1px;
+    border: none;
+}

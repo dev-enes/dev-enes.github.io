@@ -98,7 +98,7 @@ h6 {
 
 .greeting-wrapper h1{
     font-family: 'Redressed', cursive;
-    animation: fadeIn 5s;
+    animation: fadeIn 6s;
 }
 
 @keyframes fadeIn {
@@ -216,12 +216,20 @@ h6 {
     background-color: #36648b;
 }
 
+#seagreen-mode {
+    background-color: #2e8b57;
+}
+
 #plum-mode {
     background-color: #8b668b;
 }
 
-#seagreen-mode {
-    background-color: #2e8b57;
+#pink-mode {
+    background-color: #cd919e;
+}
+
+#yellow-mode {
+    background-color: #cdc673;
 }
 
 #light-mode {
@@ -267,6 +275,10 @@ h6 {
     justify-content: space-evenly;
     background-color: var(--previewBg);
     font-weight: bold;
+    border: 1px solid var(--borderColor);
+    box-shadow: 10px -10px 10px -1px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 10px -10px 10px -1px rgba(0,0,0,0.25);
+    -moz-box-shadow: 10px -10px 10px -1px rgba(0,0,0,0.25);
 }
 
 .attributes {

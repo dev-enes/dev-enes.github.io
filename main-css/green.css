@@ -11,10 +11,6 @@
     --attColor: #caff70;
 }
 
-#navigation a {
-    color: var(--secondaryText);
-}
-
 .about-wrapper hr {
     background-color: var(--borderColor);
     height: 1px;
