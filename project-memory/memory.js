@@ -1,13 +1,13 @@
-var cards = document.querySelectorAll('.memory-card');
+const cards = document.querySelectorAll('.memory-card');
 
 cards.forEach(card => card.addEventListener('click', flipCard));
 
 var attempts = 0;
 var counter = 0;
 
-var flippedCard = false;
-var lockBoard = false;
-var firstCard, secondCard;
+let flippedCard = false;
+let lockBoard = false;
+let firstCard, secondCard;
 
 function flipCard() {
     if (lockBoard) {
@@ -85,7 +85,7 @@ function checkMatched() {
 //Invoked immediately
 (function shuffleCards() {
     cards.forEach(card => {
-        var randomNum = Math.floor(Math.random() * 12);
+        let randomNum = Math.floor(Math.random() * 12);
         card.style.order = randomNum;
     });
 })();
