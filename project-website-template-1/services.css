@@ -1,0 +1,94 @@
+﻿.video-overlay.services {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.main-section {
+    padding: 0;
+    padding-top: 100px;
+}
+
+.services-section {
+    padding: 10px;
+    z-index: 2;
+}
+
+.inner-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.main-title {
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.seperator {
+    width: 80px;
+    height: 2px;
+    background: #03a9f4;
+    margin: 30px auto;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service {
+    max-width: 30%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    transition: 0.3s linear;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+    display: inline-block;
+    border: 3px solid #03a9f4;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    transition: 0.3s linear;
+}
+
+.service:hover .icon {
+    background: #03a9f4;
+}
+
+.service:hover {
+    border: 2px solid #03a9f4;
+    box-shadow: 0 0 10px 4px #03a9f4;
+}
+
+.title {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 960px) {
+    .service {
+        max-width: 45%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .service {
+        max-width: 100%;
+    }
+}

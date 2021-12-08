@@ -1,0 +1,96 @@
+﻿.video-overlay.services {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.main-section {
+    padding: 0;
+    padding-top: 100px;
+}
+
+.contact-section {
+    padding: 10px;
+    z-index: 2;
+}
+
+.main-title {
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.seperator {
+    width: 80px;
+    height: 2px;
+    background: #03a9f4;
+    margin: 40px auto;
+}
+
+.contact-form-container {
+    width: 600px;
+}
+
+.contact-form {
+    max-width: 100%;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #ffffff;
+    padding: 20px 40px;
+    outline: none;
+    color: #03a9f4;
+    transition: 0.5s;
+}
+
+.contact-form-text:focus {
+    box-shadow: 0 0 10px 4px #03a9f4;
+}
+
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn {
+    float: right;
+    border: 0;
+    background: #ffffff;
+    color: #111;
+    padding: 10px 30px;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.contact-form-btn:hover {
+    letter-spacing: 6px;
+    box-shadow: 0 0 10px 4px #03a9f4;
+}
+
+@media screen and (max-width: 798px) {
+    .contact-form {
+        max-width: 75%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact-form {
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .contact-form {
+        max-width: 40%;
+    }
+}
