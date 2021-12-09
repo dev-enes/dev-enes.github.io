@@ -43,6 +43,11 @@
     cursor: pointer;
 }
 
+.logo a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .menu-toggle {
     position: relative;
     width: 60px;
