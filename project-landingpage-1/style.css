@@ -1,6 +1,4 @@
-﻿*,
-*::before,
-*::after {
+﻿*, *::before, *::after {
     box-sizing: border-box;
 }
 
@@ -371,8 +369,8 @@ footer {
 
 .socials .icon {
     text-decoration: none;
-    color: #444;
-    border: 3px solid #444;
+    color: #000;
+    border: 3px solid #000;
     padding: 10px;
 }
 
